@@ -38,6 +38,12 @@ fruits-ripeness-classification/
 ├── notebooks/                        # Jupyter Notebooks
 │   └── Baseline_CNN_vs_MobileNetV2.ipynb  # Notebook utama eksperimen
 │
+├── app/                              # 🎥 Real-time Detection Application
+│   ├── webcam_detector.py            # Script deteksi real-time dengan webcam
+│   ├── utils.py                      # Helper functions
+│   ├── __init__.py                   # Package initialization
+│   └── README.md                     # Dokumentasi aplikasi
+│
 ├── models/                           # Model yang telah dilatih
 │   └── model_checkpoints/            # Checkpoint model terbaik
 │       ├── baseline_cnn_best.keras   # Model Baseline CNN terbaik
@@ -134,7 +140,30 @@ Jalankan semua cell secara berurutan untuk:
 4. Evaluasi kedua model pada test set
 5. Visualisasi hasil dan perbandingan
 
-### 2. Prediksi Gambar Baru
+### 2. Real-time Detection dengan Webcam 🎥
+
+Setelah model dilatih, jalankan aplikasi real-time detection:
+
+```bash
+cd app
+python webcam_detector.py
+```
+
+**Fitur Aplikasi:**
+- ✅ Deteksi kematangan buah secara real-time dari webcam
+- ✅ Visual feedback dengan color-coding (Hijau=Matang, Oranye=Mentah, Merah=Terlalu Matang)
+- ✅ Confidence score dan FPS counter
+- ✅ Screenshot hasil deteksi (tekan 'S')
+- ✅ Toggle probability display (tekan 'P')
+
+**Kontrol Keyboard:**
+- `Q` atau `ESC` → Keluar
+- `P` → Toggle probability display
+- `S` → Screenshot
+
+📚 **Dokumentasi lengkap**: Lihat `app/README.md`
+
+### 3. Prediksi Gambar Baru
 Di akhir notebook terdapat widget untuk upload dan prediksi gambar baru:
 ```python
 # Jalankan cell terakhir untuk mengaktifkan widget prediksi
@@ -142,7 +171,7 @@ Di akhir notebook terdapat widget untuk upload dan prediksi gambar baru:
 # Klik tombol "Prediksi"
 ```
 
-### 3. Menggunakan Model yang Sudah Dilatih
+### 4. Menggunakan Model yang Sudah Dilatih
 ```python
 import tensorflow as tf
 import numpy as np
