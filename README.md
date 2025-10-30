@@ -94,11 +94,17 @@ Augmentasi diterapkan hanya pada data training:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/username/fruits-ripeness-classification.git
+git clone https://github.com/denndoy/fruits-ripeness-classification.git
 cd fruits-ripeness-classification
 ```
 
-### 2. Install Dependencies
+### 2. Download Dataset
+Download dataset dari Google Drive:
+- **Link**: [Google Drive - Fruits Ripeness Dataset](https://drive.google.com/drive/folders/1FGkJ69pB4AXY69pGwN_OsHsF7xyuRycW?usp=sharing)
+- Ekstrak dan letakkan di folder `dataset_fix/` di root proyek
+- Pastikan struktur folder sesuai dengan dokumentasi
+
+### 3. Install Dependencies
 ```bash
 pip install tensorflow numpy pandas matplotlib scikit-learn pillow jupyter ipywidgets
 ```
@@ -108,7 +114,7 @@ Atau menggunakan file requirements.txt (jika ada):
 pip install -r requirements.txt
 ```
 
-### 3. Persiapan Dataset
+### 4. Persiapan Dataset
 - Download dataset buah Anda
 - Susun dataset sesuai struktur folder di atas (`dataset_fix/train`, `validation`, `test`)
 - Pastikan setiap folder berisi subfolder untuk setiap kelas
@@ -226,12 +232,12 @@ Kontribusi, issues, dan feature requests sangat diterima!
 ## 👨‍💻 Author
 
 **Dandy**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@denndoy](https://github.com/denndoy)
+- Repository: [fruits-ripeness-classification](https://github.com/denndoy/fruits-ripeness-classification)
 
 ## 🙏 Acknowledgments
 
-- Dataset: [Sumber dataset Anda]
+- Dataset: [Fruits Ripeness Dataset - Google Drive](https://drive.google.com/drive/folders/1FGkJ69pB4AXY69pGwN_OsHsF7xyuRycW?usp=sharing)
 - MobileNetV2: [Google Research](https://arxiv.org/abs/1801.04381)
 - TensorFlow/Keras Documentation
 

@@ -84,12 +84,18 @@ Jika terjadi imbalance (ketidakseimbangan jumlah gambar antar kelas):
 3. **Quality**: Gunakan gambar berkualitas baik untuk hasil optimal
 4. **Variasi**: Tambahkan variasi kondisi pencahayaan, sudut pandang, dan background
 
-## 🔗 Sumber Dataset (Opsional)
+## 🔗 Sumber Dataset
 
-Jika Anda menggunakan dataset publik, cantumkan sumbernya di sini:
-- Nama Dataset: [Nama dataset Anda]
-- Sumber: [Link ke dataset]
-- Lisensi: [Lisensi dataset]
+Dataset yang digunakan dalam proyek ini tersedia di:
+- **Link Dataset**: [Google Drive - Fruits Ripeness Dataset](https://drive.google.com/drive/folders/1FGkJ69pB4AXY69pGwN_OsHsF7xyuRycW?usp=sharing)
+- **Format**: Gambar JPG/PNG terorganisir dalam folder per kelas
+- **Akses**: Public (dapat diakses siapa saja)
+
+### Cara Download Dataset
+1. Klik link Google Drive di atas
+2. Download folder `dataset_fix` atau download per subfolder
+3. Ekstrak dan letakkan di root folder proyek dengan nama `dataset_fix/`
+4. Pastikan struktur folder sesuai dengan yang dijelaskan di dokumentasi ini
 
 ---
 

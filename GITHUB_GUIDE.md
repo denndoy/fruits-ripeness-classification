@@ -130,9 +130,15 @@ git push
 
 ### Clone Repository (di Komputer Lain)
 ```bash
-git clone https://github.com/yourusername/fruits-ripeness-classification.git
+git clone https://github.com/denndoy/fruits-ripeness-classification.git
 cd fruits-ripeness-classification
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Download dataset dari Google Drive
+# Link: https://drive.google.com/drive/folders/1FGkJ69pB4AXY69pGwN_OsHsF7xyuRycW?usp=sharing
+# Ekstrak ke folder dataset_fix/
 ```
 
 ## ⚠️ PENTING: Jangan Upload Dataset!
