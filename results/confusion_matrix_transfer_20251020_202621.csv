@@ -1,0 +1,7 @@
+,overripe_apple,overripe_banana,ripe_apple,ripe_banana,unripe_apple,unripe_banana
+overripe_apple,502,0,58,8,33,0
+overripe_banana,8,487,1,29,1,4
+ripe_apple,10,0,225,0,0,0
+ripe_banana,0,2,0,377,0,2
+unripe_apple,1,1,2,1,155,0
+unripe_banana,0,0,0,0,0,221
